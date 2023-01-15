@@ -55,3 +55,16 @@ margin-top: 25px;
 color: white;
 border: none;
 }
+
+
+/* sponsor-sec */
+
+.sponsor-sec{
+    margin: 0 160px;
+    
+}
+.sponsor{
+   display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
