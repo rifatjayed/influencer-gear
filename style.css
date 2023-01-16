@@ -221,7 +221,7 @@ font-size: 14px;
 
 
     nav {
-        margin: 30px;
+        margin: 20px;
         display: flex;
         justify-content: space-between;
     }
@@ -229,7 +229,9 @@ font-size: 14px;
     /* banner section responsive */
 
 
-
+.banner, .sponsor-sec{
+    margin: 50px;
+}
     .banner-left {
         order: 2;
     }
@@ -245,11 +247,6 @@ font-size: 14px;
 
     /* sponsor section responsive */
 
-    .sponsor-sec {
-
-        margin: 50px;
-
-    }
 
     .sponsor {
         display: grid;
@@ -263,14 +260,14 @@ font-size: 14px;
 
 
     .popular-collection-sec {
-        margin:20px;
+        margin:10px;
     }
     
 
     .card {
        
-        margin: 20px 15px;
-        padding: 15px;
+        margin: 10px;
+        padding: 20px;
        
     }
     .card img{
@@ -295,5 +292,13 @@ font-size: 14px;
     .feature-section-right{
         margin-left: 0;
     }
+
+
+    /* footer section */
     
+footer{
+    padding: 20px 0;
+}
+
+
 }
